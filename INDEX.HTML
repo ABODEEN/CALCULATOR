@@ -1,0 +1,66 @@
+<!-- NAME OF PROJECT -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href=".\RESET.css">
+     <link rel="stylesheet" href=".\CSS.css">
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body >
+     
+     <div id="cal" >
+          <!-- <div style="background-color: none;"> -->
+               <div id="screen">
+                    <h3>الحاسبة</h3>
+
+                    <div  id="header">
+<!-- // ------------------------------------------------------------------------------------------ -->
+                    <!-- <div type="text" id="num"  class="screen"></div ><br> -->
+                    <span  id="num" class="screen"></span><br>
+                    <span id="nat" class="screen"></span>
+
+<!-- // ------------------------------------------------------------------------------------------ -->
+
+                    </div>
+               </div>
+          <!-- </div> -->
+          <div id="main">
+               <div id="p1">
+                    <button id="1" class="button" onlick=go(1) value="1">1 </button>
+                    <button id="2" class="button" onlick=go(2) value="2">2 </button>
+                    <button id="3" class="button" onlick="go(3)" value="3">3 </button>
+                    <button id="4" class="button" onlick="go(4)" value="4">4 </button>
+                    <button id="5" class="button" onlick="go(5)" value="5">5 </button>
+                    <button id="6" class="button" onlick="go(6)" value="6">6 </button>
+                    <button id="7" class="button" onlick="go(7) "value="7">7 </button>
+                    <button id="8" class="button" onlick="go(8)" value="8">8 </button>
+                    <button id="9" class="button" onlick="go(9)" value="9">9 </button>
+               </div>
+
+               <div id="p2">
+                    <!-- <button id="del"  class="b2" >حذف </button> -->
+                    <button id="res"  <!--class="b2"-->مسح </button><span></span>
+                    <button id="mul"  class="b2" value="*">ضرب </button>
+                    <button id="div"  class="b2" value="/">قسمة </button>
+                    <button id="plus" class="b2" value="+">جمع </button>
+                    <button id="neg"  class="b2" value="-">طرح </button>
+               </div >
+          </div>
+          <div id="p3">
+               <Div id="p4">
+               <button id="point" class="b3" value=".">. </button>
+               <button id="0" class="b3" value="0">0 </button></Div>
+              <div id="p5"> <button id="equal" class="b3" onlick="how()" value="=">= </button></div>
+          </div>
+     </div>
+     <textarea id="nur2" class="screen" ></textarea><br>
+
+
+
+
+<script src=".\JS.JS"></script>     
+</body>
+</html>
